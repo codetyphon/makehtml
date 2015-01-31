@@ -19,36 +19,6 @@ grunt.loadNpmTasks('makehtml');
 
 ## The "makehtml" task
 
-### Overview
-In your project's Gruntfile, add a section named `makehtml` to the data object passed into `grunt.initConfig()`.
-
-```js
-grunt.initConfig({
-  makehtml: {
-    options: {
-      // Task-specific options go here.
-    },
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    },
-  },
-})
-```
-
-### Options
-
-#### options.separator
-Type: `String`
-Default value: `',  '`
-
-A string value that is used to do something with whatever.
-
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
-
-A string value that is used to do something else with whatever else.
-
 ### Usage Examples
 
 #### Default Options
