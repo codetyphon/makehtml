@@ -1,0 +1,31 @@
+{
+  "name": "makehtml",
+  "version": "0.0.4",
+  "description": "makehtml",
+  "homepage": "https://github.com/codetyphon/makehtml",
+  "repository": "https://github.com/codetyphon/makehtml.git",
+  "author": {
+    "name": "codetyphon",
+    "email": "g@codetyphon.com",
+    "url": "http://www.codetyphon.com"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "makehtml": "grunt makehtml"
+  }
+}
